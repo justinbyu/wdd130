@@ -1,69 +1,83 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+    }
 
-header {
-    background-color: #0077cc;
-    color: white;
-    padding: 1rem;
-}
+    header {
+        background-color: #0077cc;
+        color: white;
+        padding: 1rem;
+    }
 
-nav a {
-    color: white;
-    margin-right: 1rem;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1rem;
-}
+    nav {
+        background-color: #0077cc;
+        padding: 1rem;
+    }
 
-main {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 2rem;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    nav a {
+        color: white;
+        margin-right: 1rem;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 0.5rem;
+        display: block;
+    }
 
-main img {
-    width: 150px;
-    height: auto;
-    display: block;
-    margin-bottom: 1rem;
-    border-radius: 8px;
-}
+    main {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 2rem;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
-aside {
-    width: 20em;
-    margin: 1em;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1em;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-}
+    main img {
+        width: 150px;
+        height: auto;
+        display: block;
+        margin-bottom: 1rem;
+        border: 2px solid #ccc;
+        padding: 0.5rem;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
 
-aside img {
-    width: 200px;
-    height: auto;
-}
+    aside {
+        width: 20em;
+        margin: 1em;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 1em;
+        background-color: #eee;
+        color: #333;
+        text-align: center;
+    }
 
-p {
-    padding: 0;
-}
+    aside img {
+        width: 200px;
+        height: auto;
+    }
 
-footer {
-    margin-top: 1rem;
-    border-top: 1px solid #000;
-    text-align: center;
-    padding: 1rem;
-    background-color: #0077cc;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    font-size: 0.9rem;
-}
+    p {
+        padding: 0;
+    }
+
+    h1 {
+        color: #0077cc;
+    }
+
+    footer {
+        margin-top: 1rem;
+        border-top: 1px solid #000;
+        text-align: center;
+        padding: 1rem;
+        background-color: #0077cc;
+        color: white;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        font-size: 0.9rem;
+    }
