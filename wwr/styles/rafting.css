@@ -1,0 +1,99 @@
+/* rafting.css */
+
+/* Step 1–3: Define CSS variables */
+:root {
+    --primary-color: #055a05;
+    /* forest green */
+    --secondary-color: #f4a261;
+    /* warm sand */
+    --accent1-color: #264653;
+    /* dark slate blue */
+    --accent2-color: #e9c46a;
+    /* light golden yellow */
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+/* Step 4: Reset box model */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Step 5: Style body text */
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+/* Step 6: Limit page width and center layout */
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+/* Step 7: Style headings */
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/* Step 8: Add spacing to nav, paragraphs, sections, and articles */
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+/* Step 9: Remove underline from social media image links */
+.socialmedia a {
+    text-decoration: none;
+}
+
+/* Step 10: Style hero section */
+.hero {
+    position: relative;
+}
+
+/* Step 11: Style hero image */
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Step 12: Style hero heading */
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+/* Step 13: Style hero article */
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 16px;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Step 14: Style image inside hero article */
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 16px;
+}
