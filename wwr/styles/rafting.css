@@ -25,14 +25,19 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    background-color: var(--accent2-color);
+    /* now using accent2 */
 }
 
 /* Step 6: Limit page width and center layout */
 header,
 main,
 footer {
-    width: 840px;
+    max-width: 840px;
+    width: 100%;
     margin: 0 auto;
+    background-color: var(--secondary-color);
+    /* now using secondary */
 }
 
 /* Step 7: Style headings */
@@ -75,7 +80,7 @@ article {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.8;
     background-color: var(--accent1-color);
     color: #fff;
 }
@@ -85,7 +90,7 @@ article {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.95);
     padding: 16px;
     max-width: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
