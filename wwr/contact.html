@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <meta name="author" content="Justin R. Diaz">
     <meta charset="UTF-8">
     <meta name="description"
       content="Contact White Water Rafting Company for inquiries, reservations, or suggestions.">
@@ -29,9 +30,9 @@
         <!-- Company Info -->
         <section class="company-info">
             <h1>White Water Rafting Company</h1>
-            <p>26 B. lopez st. Karuhatan<br>Valenzuela, Philippines</p>
+            <p>26 B. Lopez St., Karuhatan<br>Valenzuela, Philippines</p>
             <p>Phone: +63 962 301 7609</p>
-            <p>Email: <a href="justinriverodiaz@gmail.com">justinriverodiaz@gmail.com</a></p>
+            <p>Email: <a href="mailto:justinriverodiaz@gmail.com">justinriverodiaz@gmail.com</a></p>
         </section>
 
         <!-- Google Map -->
@@ -43,7 +44,6 @@
               referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </section>
-
 
         <!-- Contact Form -->
         <section class="contact-form">
@@ -57,20 +57,20 @@
 
                 <fieldset>
                     <legend>Purpose of Message:</legend>
-                    <label><input type="radio" name="purpose" value="general" required> General
-                        Inquiry</label>
-                    <label><input type="radio" name="purpose" value="reservation"> Reservation
-                        Question</label>
-                    <label><input type="radio" name="purpose" value="suggestion"> Website
-                        Suggestion</label>
+                    <label for="general"><input type="radio" id="general" name="purpose"
+                          value="general" required> General Inquiry</label>
+                    <label for="reservation"><input type="radio" id="reservation" name="purpose"
+                          value="reservation"> Reservation Question</label>
+                    <label for="suggestion"><input type="radio" id="suggestion" name="purpose"
+                          value="suggestion"> Website Suggestion</label>
                 </fieldset>
 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
 
-                <label>
-                    <input type="checkbox" name="newsletter"> Please subscribe me to the monthly
-                    newsletter
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter"> Please subscribe me to
+                    the monthly newsletter
                 </label>
 
                 <button type="submit">Send Message</button>
@@ -90,7 +90,7 @@
                     <figcaption>Jane Smith — Customer Support</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/employee3.png" alt="Chloe Johnson - Website Coordinator">
+                    <img src="images/employee3.png" alt="Mike Johnson - Website Coordinator">
                     <figcaption>Mike Johnson — Website Coordinator</figcaption>
                 </figure>
             </div>
@@ -99,12 +99,12 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2026 White Water Rafting Company</p>
-        <div class="social">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
-        </div>
+        <p>&copy; 2026 White Water Rafting Company — Justin R. Diaz</p>
+        <nav class="socialmedia">
+            <a href="#"><img src="images/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="images/linkendin.svg" alt="linkendin"></a>
+            <a href="#"><img src="images/instagram.svg" alt="Instagram"></a>
+        </nav>
     </footer>
 </body>
 
