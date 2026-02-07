@@ -118,3 +118,8 @@ article {
         margin-left: 12px;
     }
 }
+
+/* Step 16: Style iframe (remove inline style) */
+iframe {
+    border: 0;
+}
